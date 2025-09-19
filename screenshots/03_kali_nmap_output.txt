@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Thu Sep 18 22:02:05 2025 as: /usr/lib/nmap/nmap -sS -p 445,3389 -oN /home/kali/Desktop/03_kali_nmap_output.txt 192.168.56.10
+Nmap scan report for 192.168.56.10
+Host is up (0.00028s latency).
+
+PORT     STATE    SERVICE
+445/tcp  filtered microsoft-ds
+3389/tcp open     ms-wbt-server
+MAC Address: 08:00:27:DF:C6:19 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+# Nmap done at Thu Sep 18 22:02:19 2025 -- 1 IP address (1 host up) scanned in 14.72 seconds

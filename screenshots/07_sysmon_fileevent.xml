@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Events><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>11</EventID><Version>2</Version><Level>4</Level><Task>11</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2025-09-19T14:48:45.0164978Z'/><EventRecordID>27100</EventRecordID><Correlation/><Execution ProcessID='3576' ThreadID='4120'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>DESKTOP-P5JDEJ8</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'>technique_id=T1047,technique_name=File System Permissions Weakness</Data><Data Name='UtcTime'>2025-09-19 14:48:45.016</Data><Data Name='ProcessGuid'>{536a5d33-6cfe-68cd-7802-000000001000}</Data><Data Name='ProcessId'>4728</Data><Data Name='Image'>C:\Windows\system32\NOTEPAD.EXE</Data><Data Name='TargetFilename'>C:\Temp\test_sysmon\test1.txt</Data><Data Name='CreationUtcTime'>2025-09-19 14:48:45.015</Data><Data Name='User'>DESKTOP-P5JDEJ8\TEST</Data></EventData><RenderingInfo Culture='en-IN'><Message>File created:
+RuleName: technique_id=T1047,technique_name=File System Permissions Weakness
+UtcTime: 2025-09-19 14:48:45.016
+ProcessGuid: {536a5d33-6cfe-68cd-7802-000000001000}
+ProcessId: 4728
+Image: C:\Windows\system32\NOTEPAD.EXE
+TargetFilename: C:\Temp\test_sysmon\test1.txt
+CreationUtcTime: 2025-09-19 14:48:45.015
+User: DESKTOP-P5JDEJ8\TEST</Message><Level>Information</Level><Task>File created (rule: FileCreate)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event></Events>

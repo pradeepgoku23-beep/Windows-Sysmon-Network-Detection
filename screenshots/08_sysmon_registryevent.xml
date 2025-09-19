@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Events><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>13</EventID><Version>2</Version><Level>4</Level><Task>13</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2025-09-19T15:07:27.7583196Z'/><EventRecordID>27254</EventRecordID><Correlation/><Execution ProcessID='3576' ThreadID='4120'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>DESKTOP-P5JDEJ8</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'>technique_id=T1547.001,technique_name=Registry Run Keys / Start Folder</Data><Data Name='EventType'>SetValue</Data><Data Name='UtcTime'>2025-09-19 15:07:27.757</Data><Data Name='ProcessGuid'>{536a5d33-7149-68cd-2b06-000000001000}</Data><Data Name='ProcessId'>2396</Data><Data Name='Image'>C:\Windows\regedit.exe</Data><Data Name='TargetObject'>HKU\S-1-5-21-1964466696-1298623583-2753460871-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\TestSysmon</Data><Data Name='Details'>notepad.exe</Data><Data Name='User'>DESKTOP-P5JDEJ8\TEST</Data></EventData><RenderingInfo Culture='en-IN'><Message>Registry value set:
+RuleName: technique_id=T1547.001,technique_name=Registry Run Keys / Start Folder
+EventType: SetValue
+UtcTime: 2025-09-19 15:07:27.757
+ProcessGuid: {536a5d33-7149-68cd-2b06-000000001000}
+ProcessId: 2396
+Image: C:\Windows\regedit.exe
+TargetObject: HKU\S-1-5-21-1964466696-1298623583-2753460871-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\TestSysmon
+Details: notepad.exe
+User: DESKTOP-P5JDEJ8\TEST</Message><Level>Information</Level><Task>Registry value set (rule: RegistryEvent)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event></Events>

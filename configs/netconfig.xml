@@ -1,0 +1,10 @@
+<Sysmon schemaversion="4.82">
+<EventFiltering>
+<NetworkConnect onmatch="include">
+<Rule groupRelation="or"/>
+</NetworkConnect>
+<ProcessCreate onmatch="include">
+<Rule groupRelation="or"/>
+</ProcessCreate>
+</EventFiltering>
+</Sysmon>

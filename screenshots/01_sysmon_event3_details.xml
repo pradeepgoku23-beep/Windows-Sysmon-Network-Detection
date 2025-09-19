@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Events><Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>3</EventID><Version>5</Version><Level>4</Level><Task>3</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2025-09-16T06:47:46.9371647Z'/><EventRecordID>21103</EventRecordID><Correlation/><Execution ProcessID='3384' ThreadID='3492'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>DESKTOP-P5JDEJ8</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'>technique_id=T1571,technique_name=Non-Standard Port</Data><Data Name='UtcTime'>2025-09-16 06:47:45.190</Data><Data Name='ProcessGuid'>{536a5d33-05e1-68c9-ca00-000000000800}</Data><Data Name='ProcessId'>6372</Data><Data Name='Image'>C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data><Data Name='User'>DESKTOP-P5JDEJ8\TEST</Data><Data Name='Protocol'>tcp</Data><Data Name='Initiated'>true</Data><Data Name='SourceIsIpv6'>false</Data><Data Name='SourceIp'>192.168.56.10</Data><Data Name='SourceHostname'>-</Data><Data Name='SourcePort'>57781</Data><Data Name='SourcePortName'>-</Data><Data Name='DestinationIsIpv6'>false</Data><Data Name='DestinationIp'>192.168.56.103</Data><Data Name='DestinationHostname'>-</Data><Data Name='DestinationPort'>8080</Data><Data Name='DestinationPortName'>-</Data></EventData><RenderingInfo Culture='en-IN'><Message>Network connection detected:
+RuleName: technique_id=T1571,technique_name=Non-Standard Port
+UtcTime: 2025-09-16 06:47:45.190
+ProcessGuid: {536a5d33-05e1-68c9-ca00-000000000800}
+ProcessId: 6372
+Image: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+User: DESKTOP-P5JDEJ8\TEST
+Protocol: tcp
+Initiated: true
+SourceIsIpv6: false
+SourceIp: 192.168.56.10
+SourceHostname: -
+SourcePort: 57781
+SourcePortName: -
+DestinationIsIpv6: false
+DestinationIp: 192.168.56.103
+DestinationHostname: -
+DestinationPort: 8080
+DestinationPortName: -</Message><Level>Information</Level><Task>Network connection detected (rule: NetworkConnect)</Task><Opcode>Info</Opcode><Channel></Channel><Provider></Provider><Keywords></Keywords></RenderingInfo></Event></Events>
