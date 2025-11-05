@@ -79,10 +79,10 @@ Sysmon process & network logs | Connection logs evidence
 If needed later, can extend this project by:
 - Sending Sysmon logs to Splunk
 - Creating a Splunk threat-hunting dashboard
-- Adding Sigma/ELK detection rules
 
 ---
 
 ## 👨🏻‍💻 Project Status
 ✔ Completed (Sysmon + Event Viewer)  
 🔜 Optional upgrade: Add Splunk monitoring
+
